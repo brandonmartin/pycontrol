@@ -13,7 +13,7 @@ setup(
     keywords='iControl F5 API',
     #py_modules=['pycontrol'],
     packages=['pycontrol',],
-    install_requires=['distribute', 'suds>=0.3.9'],
+    install_requires=['setuptools', 'suds>=0.3.9'],
     platforms='any',
     classifiers=[
         'Operating System :: OS Independent',
